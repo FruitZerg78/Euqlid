@@ -1,0 +1,329 @@
+:root {
+  --burger-color: #000;
+  --btn-color: #ff9900;
+  --text-white: #fff;
+  --tablet-gap: 80px;
+}
+
+@media (max-width: 1510px) {
+  .container {
+    padding: 0 50px;
+  }
+
+  .burger {
+    display: flex;
+    position: relative;
+    width: 30px;
+    height: 23px;
+  }
+
+  .burger__line {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    left: 50%;
+    background-color: var(--burger-color);
+    transform: translateX(-50%);
+  }
+
+  .burger__line:first-child {
+    top: 7px;
+  }
+
+  .burger__line:nth-child(2) {
+    top: 77%;
+  }
+
+  .burger__line:last-child {
+    bottom: 23px;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__right {
+    width: 30px;
+  }
+
+  .hero__wrapper {
+    margin: 0;
+    background-image: url(../img/balcony-1024.jpg);
+  }
+
+  .hero__wrapper .title {
+    width: 70%;
+    font-size: 60px;
+    line-height: 73px;
+  }
+
+  .hero__wrapper .descr {
+    width: 70%;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .about-us .descr {
+    width: 100%;
+  }
+
+  .about-us .content {
+    flex-direction: column;
+  }
+
+  .big-banner {
+    max-width: 100%;
+    justify-content: flex-end;
+    margin: 0;
+    margin-bottom: 20px;
+    background-image: url(../img/worker-1024.jpg);
+    border-radius: 32px;
+  }
+
+  .big-banner .content {
+    flex-direction: row;
+  }
+
+  .big-banner .descr {
+    width: 60%;
+  }
+
+  .work__text {
+    width: 84%;
+    margin-right: 50px;
+  }
+
+  .work .image {
+    min-height: 689px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    background-image: url(../img/work-1024.jpg);
+    border-radius: 24px;
+  }
+
+  .faq .button {
+    text-align: left;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .faq .button span {
+    width: 88%;
+  }
+
+  .footer .descr {
+    display: none;
+  }
+
+  .footer .form {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    margin-bottom: 39px;
+  }
+
+  .header .container {
+    padding: 27px 43px 23px 51px;
+  }
+
+  .hero {
+    margin-bottom: 35px;
+  }
+
+  .hero__wrapper {
+    padding: 160px 10px 161px 80px;
+  }
+
+  .hero__wrapper .title {
+    width: 84%;
+    margin-bottom: 16px;
+  }
+
+  .hero__wrapper .descr {
+    width: 84%;
+    margin-bottom: 60px;
+  }
+
+  .about-us .descr {
+    margin-bottom: 59px;
+  }
+
+  .big-banner {
+    min-height: 640px;
+    margin-bottom: 32px;
+  }
+
+  .big-banner .descr {
+    margin: 0;
+  }
+
+  .small-banner {
+    padding: 63px 12px 66px 78px;
+  }
+
+  .small-banner .text {
+    width: 71%;
+  }
+
+  .small-banners .descr {
+    width: 73%;
+    margin: 0;
+  }
+
+  .image-first {
+    background-image: url(../img/box-1024.png);
+  }
+
+  .image-second {
+    background-image: url(../img/gear-1024.png);
+  }
+
+  .about-us {
+    margin-bottom: 78px;
+  }
+
+  .work {
+    margin-bottom: 81px;
+  }
+
+  .work__item {
+    margin-bottom: 51px;
+  }
+
+  .work__text {
+    width: 95%;
+  }
+
+  .work__text .descr {
+    margin-bottom: 24px;
+  }
+
+  .faq {
+    margin-bottom: 80.5px;
+  }
+
+  .faq .button {
+    padding: 29.5px 0;
+  }
+
+  .faq .button span {
+    width: 82%;
+  }
+
+  .footer {
+    margin: 0 auto;
+    padding: 50px 51px;
+  }
+
+  .footer .form {
+    width: 58.5%;
+  }
+
+  .form .text,
+  .form .email {
+    width: 100%;
+  }
+
+  .form .btn {
+    width: 242px;
+    padding: 19px 37px;
+  }
+}
+
+@media (max-width: 910px) {
+  .hero__wrapper {
+    padding: 160px 40px;
+  }
+
+  .hero__wrapper .title {
+    width: 100%;
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .hero__wrapper .descr {
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .work .content {
+    flex-direction: column-reverse;
+  }
+
+  .work .image {
+    width: 100%;
+    height: 100%;
+    min-height: 284px;
+    margin: 0;
+    background-image: url(../img/work-768.png);
+    background-size: contain;
+  }
+
+  .footer .container {
+    flex-direction: column-reverse;
+  }
+
+  .footer__list {
+    display: none;
+  }
+
+  .footer .form {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 670px) {
+  .big-banner {
+    position: relative;
+    min-height: 405px;
+    padding-bottom: 10px;
+    margin-right: 0;
+    margin-bottom: 26px;
+    background-size: 100% 200px;
+    background-image: url(../img/worker-320.png);
+    background-repeat: no-repeat;
+    border-radius: 0;
+  }
+
+  .big-banner .content {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    background: none;
+    color: #000;
+  }
+
+  .big-banner .descr {
+    margin: 0;
+    align-self: baseline;
+    margin-bottom: 11px;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .big-banner .btn {
+    display: block;
+    padding: 11px 44px;
+    align-self: baseline;
+    color: var(--btn-color);
+    outline: 1px var(--btn-color) solid;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .small-banner {
+    padding: 63px 12px 66px 30px;
+  }
+}

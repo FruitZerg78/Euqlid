@@ -1,0 +1,177 @@
+@media (min-width: 1024px) {
+  .header .container {
+    padding: 27px 49px 22px 51px;
+  }
+
+  .hero__wrapper {
+    margin: 0;
+    min-height: 668px;
+    padding: 160px 40px 30px 78px;
+    background-image: url(../img/balcony-1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero__wrapper .title {
+    margin-bottom: 16px;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: left;
+  }
+
+  .hero__wrapper .descr {
+    width: 82%;
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .about-us .descr {
+    margin-bottom: 60px;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .big-banner {
+    max-width: 100%;
+    min-height: 640px;
+    border-radius: 34px;
+    background-image: url(../img/worker-1024.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .big-banner .content {
+    min-height: 196px;
+    padding: 34px 50px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 31px;
+  }
+
+  .big-banner .descr {
+    width: 60%;
+    margin: 0;
+    align-self: center;
+  }
+
+  .small-banner {
+    align-items: normal;
+    justify-content: space-between;
+    padding: 65px 77px;
+    border: 1px solid #cacaca;
+    border-radius: 32px;
+  }
+
+  .image-first {
+    margin: 0;
+    margin-right: 47px;
+    width: 280px;
+    height: 165px;
+    background-image: url(../img/box-1024.png);
+  }
+
+  .image-second {
+    margin: 0;
+    margin-right: 47px;
+    width: 280px;
+    height: 165px;
+    background-image: url(../img/gear-1024.png);
+  }
+
+  .small-banner .title {
+    margin-bottom: 8px;
+  }
+
+  .small-banner .descr {
+    width: 82%;
+    margin-bottom: 0;
+  }
+
+  .work {
+    margin-bottom: 81px;
+  }
+
+  .work .content {
+    flex-direction: row;
+  }
+
+  .work .image {
+    width: 100%;
+    min-height: 689px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    background-image: url(../img/work-1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 24px;
+  }
+
+  .work__text {
+    margin-right: 50px;
+  }
+
+  .work__list {
+    justify-content: left;
+  }
+
+  .work__item:not(:last-child) {
+    margin-right: 86px;
+  }
+
+  .work__text .btn {
+    margin-right: 28px;
+    padding: 20px 37px 20px 40px;
+  }
+
+  .work__text .download {
+    padding: 21px 36px 17px 37px;
+    border-radius: 15px;
+    border: 1px solid var(--color-gray40);
+  }
+
+  .work .download:focus {
+    color: var(--color-white);
+    background: var(--color-gray40);
+    outline: none;
+    border: 1px solid var(--color-gray40);
+  }
+
+  .faq {
+    margin-bottom: 80px;
+  }
+
+  .faq .button {
+    padding: 30px 0px 29px 0px;
+  }
+
+  .faq .button span {
+    width: 84%;
+  }
+
+  .footer .container {
+    flex-direction: row;
+  }
+
+  .footer__list {
+    display: block;
+  }
+
+  .footer .form {
+    width: 100%;
+  }
+
+  .footer .logo img {
+    margin-bottom: 15px;
+  }
+
+  .footer .left-content {
+    width: 71%;
+  }
+
+  .form .textarea {
+    margin-bottom: 31px;
+  }
+}
